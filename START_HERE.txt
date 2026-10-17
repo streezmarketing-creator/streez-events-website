@@ -1,0 +1,19 @@
+STREEZ Events — GitHub Pages Easy Upload
+
+1. Extract all files from this ZIP.
+2. Upload all files directly to the root of your GitHub repository (the same level as index.html).
+3. Commit the changes.
+4. In GitHub Settings → Pages, select Deploy from a branch, branch main, folder /(root).
+5. Wait for the GitHub Pages deployment to finish, then open the published website.
+
+Files:
+- index.html — responsive STREEZ Events website, Google Sheets enquiry form, and WhatsApp handoff.
+- thankyou.html — thank-you page, Google Ads tag, enquiry summary, and 5-second WhatsApp follow-up popup.
+- streez-logo.svg — the STREEZ logo used by the homepage and thank-you page.
+- WhatsApp Image 2026-10-16 at 3.19.45 PM.jpeg — valid raster backup of the STREEZ logo for link previews/older references.
+
+Notes:
+- Google Apps Script endpoint is configured in index.html.
+- On form submission, WhatsApp opens in a new tab/window immediately (like the STREEZ Real Estate page), and the current tab opens thankyou.html after the Google Sheets request.
+- The page uses Tailwind CDN and Google Fonts, so the visitor needs an internet connection for those resources.
+- Google Ads conversion ID AW-18329237137 is configured. To count a specific Google Ads conversion action, its conversion label may also be required.
